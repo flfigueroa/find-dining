@@ -1,0 +1,273 @@
+.page{
+  text-align:center;
+  flex-wrap: wrap;
+  font-family: 'CircularStd';
+  min-width: 950px;
+  box-sizing: border-box;
+}
+
+.search_hdr{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.25em;
+ 
+  margin: 25% 0 -5% 5%;
+  text-align: left;
+}
+
+.sidebarStyle {
+  position:absolute;
+  top:100px;
+  min-width: 11%;
+  text-align:left;
+  padding: 2%;
+  float: left;
+  flex-wrap: wrap;
+  margin: 1px;
+}
+
+.searchbar{
+  left:15%;
+  margin:25px;
+  position:relative;
+  width: 80%;
+  min-width: 65%;
+  float: right;
+  text-align:center;
+  flex-wrap: wrap;
+
+}
+
+.mainComponentStyle {
+  left:15%;
+  margin:25px;
+  position:relative;
+  width: 80%;
+  height: 100vh;
+  min-width: 65%;
+  float: right;
+  text-align:center;
+  flex-wrap: wrap;
+}
+
+.search-link {
+  text-decoration: none;
+}
+
+.type-list, .cuisine-list{
+  list-style-type: none;
+}
+
+.search-input{
+  width:80%;
+  height: 70%;
+  font-size: 100%;
+  font-family: 'CircularStd';
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin: 2% 0%;
+  padding: 12px 15px 12px 3%;
+  background-size: 3.5%;
+  flex-wrap: wrap;
+}
+
+.search-button {
+  background-color: white;
+  color: gray;
+  min-width: 115px;
+  height: 70%;
+  font-size:100%;
+  font-family: 'CircularStd';
+  border-radius: 4px;
+  cursor: pointer;
+  margin:2%;
+  padding: 12px 4px;
+  border: 2px solid #f79361;
+}
+
+.search-button:hover{
+  background-color: #f79361;
+  color: white; 
+}
+
+#input{
+  min-width: 10%;
+}
+
+.search-filter{
+  margin-left: 1%;
+  padding: 5px 0;
+  font-size: 1em;
+  width: 95%;
+  min-width: 400px;
+  text-align: center;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  border: 2px solid darkgray;
+}
+
+.search-results {
+  margin: 1%;
+  width: 95%;
+  min-width: 700px; 
+  border: 2px solid  #f79361;
+}
+
+.result-row{
+  width: 96%;
+  min-width: 500px;
+  margin: 2%;
+  height: 200px;
+  position: relative;
+  border: #f79361 solid 0px;
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.result-col1{
+  width: 25%;
+  height: 100%;
+  margin-right: 2%;
+  /*padding: 10px;*/
+  float: left;
+}
+.result-col2{
+  margin-top: 1%;
+  height: 100%;
+  width: 60%;
+  flex-wrap: wrap;
+  float: left;
+}
+
+.result-row:hover {background-color:#f0f0f0;}
+
+.result-photo{
+  float: left;
+  width: 100%;
+  height: 100%;
+  padding: 80px;
+  margin: 5px;
+  border: 2px solid black;
+  text-align: center;
+  position: relative;
+}
+
+.result-rates{
+  margin: 1px;
+  width: 10%;
+  float: right;
+  text-align: right;
+  font-size: 0.7em;
+  flex-wrap: wrap;
+}
+
+.result-data{
+  float: right;
+  padding: 15px 10px;
+  margin: 30% 15%;
+  background-color: #6ab187;
+  min-width: 50px;
+  min-height: 10px;
+  text-align: center;
+}
+
+.result-name{
+  font-size: 2em;
+  margin-bottom: 1%;
+}
+
+.result-address{
+  width: 70%;
+  font-style: italic;
+}
+
+/* unvisited link */
+.search-link:link {
+  text-decoration:none;
+  font-weight: bold;
+  color: darkred;
+}
+
+/* visited link */
+.search-link:visited{
+  color: darkred;
+}
+
+.statement{
+  font-size: 1.15em;
+}
+
+.sort-label{
+  text-align: center;
+}
+
+/* Dropdown Button */
+.dropdown-btn {
+  background-color: #f79361;
+  color: white ;
+  padding: 5px;
+  font-size: 15px;
+  border: #f79361 solid .5px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin:5px 3%;
+}
+
+/* Dropdown button on hover & focus */
+.dropdown-btn:hover, .dropdown-btn:focus {
+  background-color: white;
+  color: #f79361;
+  border: #f79361 solid .5px;
+}
+
+.dropdown-btn:disabled{
+  display: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+#somebox{
+ /* opacity: 0;
+  height: 0;
+  width: 0;*/
+  cursor: pointer;
+  padding-top:5px;
+}
+
+.order-btn{
+  height: 5px;
+  width: 5px;
+  background-color:  #f79361;
+}
