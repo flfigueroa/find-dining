@@ -37,12 +37,4 @@ CMSC 128 Project Test Deployment
 	
 ```
 	$ npm start
-```  
-
-**NOTE:**   
-On the find-dining/front-end folder  
-  inside the package.json file there is this:  
-
-	"proxy": "http://localhost:3001"  
-
-*Baka kailangan pong palitan sir.*
+```
