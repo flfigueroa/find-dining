@@ -352,7 +352,7 @@ class RestaurantAdmin extends Component {
                           return <div className="profile-existingreview">
                                       <div className="review-items">
                                     <div className="post-item-userdetails">
-                                      <img className="post-user-dp" src={temp_dp}/>
+                                      <img className="post-user-dp" src={temp_dp} alt="alt"/>
                                       <b><i>{comment.username}</i></b>
                                       &nbsp;
                                     </div>

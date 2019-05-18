@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.607cefe8.chunk.css",
+    "main.js": "/static/js/main.23d7adf3.chunk.js",
+    "main.js.map": "/static/js/main.23d7adf3.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.df82e59c.chunk.css": "/static/css/2.df82e59c.chunk.css",
+    "static/js/2.e3320f1d.chunk.js": "/static/js/2.e3320f1d.chunk.js",
+    "static/js/2.e3320f1d.chunk.js.map": "/static/js/2.e3320f1d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.83c2013274b2bffb16d5e486872fca51.js": "/precache-manifest.83c2013274b2bffb16d5e486872fca51.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.df82e59c.chunk.css.map": "/static/css/2.df82e59c.chunk.css.map",
+    "static/css/main.607cefe8.chunk.css.map": "/static/css/main.607cefe8.chunk.css.map",
+    "static/media/index.css": "/static/media/CircularStd-MediumItalic.fde448ff.svg",
+    "static/media/admin-photo.png": "/static/media/admin-photo.b6681619.png",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/hamburger-menu.png": "/static/media/hamburger-menu.655a5fc5.png",
+    "static/media/title with logo.png": "/static/media/title with logo.75c5bad4.png",
+    "static/media/white-circle.png": "/static/media/white-circle.7dc64e66.png"
+  }
+}

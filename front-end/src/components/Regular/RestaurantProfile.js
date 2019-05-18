@@ -9,6 +9,7 @@ import "../../css/Profile.css";
 
 import temp_dp from '../../images/admin-photo.png'
 import notfound from '../../images/notfound.png'
+// import mapmarker from '../../images/markercoral.png'
 
 // import restaurant from "../../images/recent2.jpg";
 
@@ -123,6 +124,7 @@ class RestaurantProfile extends Component {
   }
 
   componentDidMount() {
+    	
     const { lng, lat, zoom } = this.state;
 
     const map = new mapboxgl.Map({
@@ -145,13 +147,13 @@ class RestaurantProfile extends Component {
       });
     });
 
-  var marker = new mapboxgl.Marker()
-    .setLngLat([this.state.lng, this.state.lat])
-    .setDraggable(false)
-    // .setOffset(1)
-    .addTo(map);
+	var marker = new mapboxgl.Marker()
+	.setLngLat([this.state.lng, this.state.lat])
+	.setDraggable(false)
+	// .setOffset(1)
+	.addTo(map);
 
-  marker.className='marker';
+	marker.className='marker';
   }
 
   componentWillMount(){
@@ -613,7 +615,7 @@ class RestaurantProfile extends Component {
                           return <div className="profile-existingreview">
                                   <div className="review-items">
                                     <div className="post-item-userdetails">
-                                      <img className="post-user-dp" src={temp_dp}/>
+                                      <img className="post-user-dp" src={temp_dp} alt="alt"/>
                                       <b><i>{comment.username}</i></b>
                                       &nbsp;
                                     </div>

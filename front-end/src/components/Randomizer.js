@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import "circular-std";
 import ReactImageFallback from "react-image-fallback";
-import StarRatings from 'react-star-ratings';
+// import StarRatings from 'react-star-ratings';
 
 
 
